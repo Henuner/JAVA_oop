@@ -12,6 +12,14 @@
 </template>
 
 <style>
+/*新增两行*/
+  .el-carousel {
+    height: 320px !important; /* 新增：确保轮播组件占满父容器 */
+  }
+
+  .el-carousel-item {
+    height: 100% !important; /* 新增：确保每个轮播项占满轮播组件 */
+  }
   .el-carousel__item h3 {
     color: black;
     font-size: 15px;
@@ -54,20 +62,22 @@
       return {
         items: [{
           id: 1,
-          title: 'How2J.cn - Java 全栈学习网站',
-          img: '../../../static/img/carousel/how2j.png',
-          link: 'http://how2j.cn?p=50613'},
+          title: 'relax and unwind',
+          // img: '../../../static/img/carousel/paintToys.png',
+          img: require('../../../static/img/carousel/nealFun.png'),
+          link: 'https://neal.fun/'},
         {
           id: 2,
-          title: 'Vue.js - 渐进式 JavaScript 框架',
-          img: '../../../static/img/carousel/vue.png',
-          link: 'https://cn.vuejs.org/'
+          title: 'dream and wander',
+          img: require('../../../static/img/carousel/yume.png'),
+          link: 'http://yume.ly/?dt_dapp=1'
         },
         {
           id: 3,
-          title: 'element-ui - 网站快速成型工具',
-          img: '../../../static/img/carousel/element.png',
-          link: 'http://element-cn.eleme.io/#/zh-CN'
+          title: 'study-gogogo!',
+          img: require('../../../static/img/carousel/code.png'),
+          // img: '/static/img/carousel/mazeToys.png',
+          link: 'https://www.runoob.com/'
         }]
       }
     }

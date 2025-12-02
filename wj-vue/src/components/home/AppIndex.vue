@@ -1,5 +1,5 @@
 <template>
-  <div style="margin-top: 40px">
+  <div style="margin-top: 40px" class="app-index-bg">
     <side-menu id="side-menu"></side-menu>
       <div class="home">
         <div id="header-div">
@@ -28,6 +28,15 @@
 </script>
 
 <style scoped>
+.app-index-bg {
+  background-image: url('../../assets/img/icon/totalBackground3.png');
+  background-size: 110%;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  padding: 20px 0;
+}*
+
   .home {
     width: 990px;
     margin-left: auto;

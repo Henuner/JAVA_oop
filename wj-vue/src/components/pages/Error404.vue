@@ -14,7 +14,7 @@
 
 <style scoped>
   .error-page {
-    background:url("../../assets/img/bg/bg2.jpg") no-repeat;
+    background:url("../../assets/img/bg/bg2.png") no-repeat;
     background-position: center;
     margin: 0;
     height: 100%;

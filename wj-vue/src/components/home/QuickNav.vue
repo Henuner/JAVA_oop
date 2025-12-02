@@ -1,11 +1,9 @@
 <template>
     <div class="quick-nav">
       <img src="../../assets/img/icon/icon2.png" alt="" class="monster">
-      <a href="https://github.com/Antabot/White-Jotter/blob/master/README.md" target="_blank">
-        <img src="../../assets/img/icon/icon5.png" alt="" class="readme">
-      </a>
+      <img src="../../assets/img/icon/come.png" alt="" class="come">
       <img src="../../assets/img/icon/icon7.png" alt="" class="spark">
-      <img src="../../assets/img/icon/logo.png" alt="" class="logo">
+      <img src="../../assets/img/icon/yeah.png" alt="" class="logo">
     </div>
 </template>
 
@@ -30,13 +28,13 @@
     /*left: 700px;*/
   }
 
-  .readme {
+  .come {
     width: 300px;
     height: 285px;
     position: absolute;
     margin-left: 50%;
-    top: 300px;
-    left: 230px;
+    top: 280px;
+    left: 210px;
   }
 
   .spark {
