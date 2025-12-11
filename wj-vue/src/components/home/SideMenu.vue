@@ -5,19 +5,19 @@
       <a href="#header-div">
         <el-menu-item index="1">
           <i class="el-icon-menu"></i>
-          <span slot="title">技术采用</span>
+          <span slot="title">宝藏网站</span>
         </el-menu-item>
       </a>
       <a href="#update-card">
         <el-menu-item index="2">
           <i class="el-icon-menu"></i>
-          <span slot="title">最近更新</span>
+          <span slot="title">主创说</span>
         </el-menu-item>
       </a>
       <a href="#slogan">
         <el-menu-item index="3">
           <i class="el-icon-document"></i>
-          <span slot="title">下载源码</span>
+          <span slot="title">我们的标语</span>
         </el-menu-item>
       </a>
       <a href="#about">
@@ -36,6 +36,10 @@
 </script>
 
 <style>
+  .el-menu {
+  background-color: rgba(255, 255, 255, 0.8); /* 白色半透明 */
+  }
+
   a {
     text-decoration: none;
     color: inherit;
