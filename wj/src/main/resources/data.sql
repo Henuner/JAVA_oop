@@ -12,6 +12,13 @@ INSERT INTO `admin_menu` VALUES ('8', '/admin/content/book', 'BookManagement', '
 INSERT INTO `admin_menu` VALUES ('9', '/admin/content/banner', 'BannerManagement', '广告管理', null, 'content/BannerManagement', '4');
 INSERT INTO `admin_menu` VALUES ('10', '/admin/content/article', 'ArticleManagement', '文章管理', null, 'content/ArticleManagement', '4');
 
+-- 添加反馈管理菜单
+INSERT INTO `admin_menu` VALUES ('11', '/admin/content/feedback', 'FeedbackManagement', '用户反馈', null, 'content/FeedbackMagement', '3');
+-- 添加用户反馈菜单
+INSERT INTO `admin_menu` VALUES ('12', '/admin/dashboard', 'DashboardAdmin', '运行情况', null, 'dashboard/admin/index', '1');
+INSERT INTO `admin_menu` VALUES ('13', '/admin/user/feedback', 'UserFeedback', '我要反馈', null, 'content/UserFeedback', '1');
+-- ----------------------------
+
 -- ----------------------------
 -- Records of admin_permission
 -- ----------------------------
