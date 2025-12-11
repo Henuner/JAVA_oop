@@ -35,4 +35,11 @@ public class JotterCollectionController {
         boolean isCollected = collectionService.isCollected(uid, aid);
         return ResultFactory.buildSuccessResult(isCollected);
     }
+
+    // 3. 【新增接口】根据用户名查询收藏列表
+    // 访问路径: /api/collection/list?username=lxm
+    @GetMapping("/api/collection/list")
+    public Result listCollections(@RequestParam String username) {
+        return ResultFactory.buildSuccessResult(collectionService.findCollectionsByUsername(username));
+    }
 }

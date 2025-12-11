@@ -2,7 +2,7 @@ package com.gm.wj.dao;
 
 import com.gm.wj.entity.JotterCollection;
 import org.springframework.data.jpa.repository.JpaRepository;
-
+import java.util.List;
 import java.util.Optional;
 
 public interface JotterCollectionDAO extends JpaRepository<JotterCollection, Integer> {
@@ -11,4 +11,7 @@ public interface JotterCollectionDAO extends JpaRepository<JotterCollection, Int
 
     // 关键方法：删除收藏记录
     void deleteByUidAndAid(int uid, int aid);
+
+    //根据用户ID查询所有收藏记录
+    List<JotterCollection> findAllByUid(int uid);
 }
